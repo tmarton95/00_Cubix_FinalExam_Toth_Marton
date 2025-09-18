@@ -2,7 +2,7 @@
 Main goal of this project is to extract and transform data about taxi-trips and weather automatically with Amazon Web Services and create some visualizations based on resulted data.
 
 # Description
-The raw data is coming about the taxi-trips in Chicago and weather conditions at different time. Jupyter notebooks are including the "discovery-files" to perform initial web-scraping and create initial mapping or dimension-tables regarding these data-sets. In this repo AWS Lambda-functions can be also found, that are responsible to manipulate data on AWS environment, where GLUE and Athena is also used to inspect data. At the end of project, some charts and diagrams have been exported to visualize the results.
+The raw data is coming about the taxi-trips in Chicago and weather conditions at different time. Jupyter notebooks are including the "discovery-files" to perform initial web-scraping and create initial mapping or dimension-tables regarding these data-sets. In this repo AWS Lambda-functions can be also found, that are responsible to manipulate data on AWS environment, where GLUE and Athena is also used to inspect data. At the end of project, transformed data is requested from AWS and some charts, diagrams have been exported to visualize the results.
 
 ## Usage
 Data extraction and transforming is carried out by AWS, so data should be requested from s3-bucket with "08_local_vizualizations" notebook, where plots can be created for better insight.
