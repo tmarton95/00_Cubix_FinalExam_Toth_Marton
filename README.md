@@ -8,7 +8,7 @@ The raw data is coming about the taxi-trips in Chicago and weather conditions at
 Data extraction and transforming is carried out by AWS, so data should be requested from s3-bucket with "08_local_vizualizations" notebook, where plots can be created for better insight.
 
 ## Project Status
-The main task is currently working, and base-project has been finalized, but it can be extended with additional features, combine it with additional data sources and imporve the vizualizations to check resulted data.
+The main task is currently working, and base-project has been finalized, but it can be extended with additional features, combine it with additional data sources and improve the vizualizations to check resulted data.
 
 ## Visual demonstration
 Some evaluated charts about transformed data can be seen below:
